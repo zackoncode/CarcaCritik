@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: orangered;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background: #1a1a1a;
+    box-shadow: 0px 0px 10px 2px rgba(255, 69, 0, 0.7);
+}
+
+table thead {
+    background-color: orangered;
+    color: black;
+}
+
+table th, table td {
+    padding: 14px;
+    text-align: center;
+    border: 1px solid #333;
+    font-weight: 500;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #262626;
+}
+
+table tbody tr:hover {
+    background-color: rgba(255, 69, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+table tbody tr:first-child td {
+    font-weight: 600;
+    background-color: #ff4500;
+    color: black;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+/* Título da seção */
+.section-title {
+    text-align: center;
+    color: orangered;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.btn-game {
+    display: inline-block;
+    padding: 8px 12px;
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-game:hover {
+    background-color: #ff6347;
+    transform: scale(1.05);
+    text-shadow: 1px 1px 5px black;
+}

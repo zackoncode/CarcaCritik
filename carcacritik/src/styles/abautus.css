@@ -1,0 +1,76 @@
+#abautus {
+    margin-top: 50%;
+
+position: center;   
+
+margin: 60px;
+
+p {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.6;
+    display: flex;
+}
+
+}
+
+#logo_chat {
+    width: 500px;
+    height: auto;
+  }
+
+  #abautus {
+    display: flex; /* Transforma o elemento em um container flexbox */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    margin: 60px;
+  }
+  
+  #logo_chat {
+    width: 30%; /* Define a largura da imagem */
+    margin-right: 190px; /* Adiciona um espaço à direita da imagem */
+  }
+  
+  #abautus p {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.6;
+    flex-grow: 1; /* Faz o parágrafo ocupar o espaço restante */
+  }
+
+
+  @media screen and (max-width: 1170px) {
+    #abautus {
+      flex-direction: column;
+    }
+  
+    #abautus .section-subtitle {
+      text-align: center;
+      font-size: 2.5rem;
+    }
+  
+    #abautus_chat {
+      display: none;
+    }
+  
+    #abautus_content {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+
+    #aboutus .section-subtitle{
+      font-size: 2rem;
+    }
+  
+    #abautus_content{
+      width: 100%;
+    }
+  
+    .p {
+      flex-direction: column;
+    }
+  }

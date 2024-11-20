@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('img/fundo.1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+body .col-md-6.well {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+body .col-md-6.well .text-primary {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff4500;
+}
+
+body .col-md-6.well hr {
+    border-top: 1px dotted #ccc;
+    margin-bottom: 20px;
+}
+
+body .col-md-6.well a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+}
+
+body .col-md-6.well a:hover {
+    text-decoration: underline;
+}
+
+body .col-md-6.well .form-group {
+    margin-bottom: 15px;
+}
+
+body .col-md-6.well .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+body .col-md-6.well .form-group input[type="text"],
+body .col-md-6.well .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+
+body .col-md-6.well .form-group input[type="text"]:focus,
+body .col-md-6.well .form-group input[type="password"]:focus {
+    border: 1px solid #ff4500;
+}
+
+body .col-md-6.well .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #ff4500;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+body .col-md-6.well .btn-primary:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
+
+body .col-md-6.well .alert {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+body .col-md-6.well .alert-success {
+    background: rgba(76, 175, 80, 0.9);
+    color: #fff;
+}
+
+body .col-md-6.well .alert-info {
+    background: rgba(33, 150, 243, 0.9);
+    color: #fff;
+}
